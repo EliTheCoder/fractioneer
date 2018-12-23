@@ -1,0 +1,27 @@
+{
+  "name": "Fractioneer",
+  "version": "0.0.1",
+  "description": "An incremental game",
+  "author": "EliTheCoder <ex.games.org@gmail.com>",
+  "license": "GPL-3.0",
+  "homepage": "http://fractioneer.elifri.ga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliTheCoder/fractioneer.git"
+  },
+  "scripts": {
+    "start": "pm2 start server.js"
+  },
+  "bugs": {
+    "url" : "https://github.com/EliTheCoder/fractioneer/issues",
+    "email" : "ex.games.org@gmail.com"
+  },
+  "dependencies": {
+    "@pm2/io": "^2.4.7",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "pm2": "^3.2.4",
+    "socket.io": "^2.0.4",
+    "util": "^0.11.1"
+  }
+}
