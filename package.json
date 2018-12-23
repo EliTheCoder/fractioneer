@@ -10,7 +10,7 @@
     "url": "https://github.com/EliTheCoder/fractioneer.git"
   },
   "scripts": {
-    "start": "pm2 start server.js"
+    "start": "node server.js"
   },
   "bugs": {
     "url": "https://github.com/EliTheCoder/fractioneer/issues",
