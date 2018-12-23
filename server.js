@@ -18,4 +18,4 @@ const io = require('socket.io')(server);
 
 io.on('connection', socket => {
   eliapi.logMessage(0, "CLIENT CONNECTED WITH IP ADDRESS: " + socket.request.connection.remoteAddress.split(':').slice(3)[0]);
-}
+});
