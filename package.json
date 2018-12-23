@@ -13,8 +13,8 @@
     "start": "pm2 start server.js"
   },
   "bugs": {
-    "url" : "https://github.com/EliTheCoder/fractioneer/issues",
-    "email" : "ex.games.org@gmail.com"
+    "url": "https://github.com/EliTheCoder/fractioneer/issues",
+    "email": "ex.games.org@gmail.com"
   },
   "dependencies": {
     "@pm2/io": "^2.4.7",
