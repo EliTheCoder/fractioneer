@@ -11,7 +11,7 @@ const pm2io = require('@pm2/io');
 app.use(express.static(path.join(__dirname, '/static')));
 
 const server = app.listen(process.env.PORT || port, () => {
-  logMessage(0, "SERVER RUNNING: PORT: " + port);
+  eliapi.logMessage(0, "SERVER RUNNING: PORT: " + port);
 });
 
 const io = require('socket.io')(server);
