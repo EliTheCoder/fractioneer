@@ -1,5 +1,3 @@
-const colors = require('colors');
-
 exports.logMessage = (type, message) => {
   let typeString;
   let datestamp = "";
@@ -13,15 +11,15 @@ exports.logMessage = (type, message) => {
       break;
     case 1:
       typeString = "WARNING";
-      console.warn(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`.yellow);
+      console.warn(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`);
       break;
     case 2:
       typeString = "ERROR";
-      console.error(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`.red);
+      console.error(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`);
       break;
     case 3:
       typeString = "OUTPUT";
-      console.log(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`.blue);
+      console.log(`[${typeString.toUpperCase()}] {${datestamp.toUpperCase()}} ${msg.toUpperCase()}`);
       break;
     case 4:
       typeString = "INFO";
