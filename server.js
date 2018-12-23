@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 const util = require('util');
 const pm2io = require('@pm2/io');
+const eliapi = require('./eliapi.js');
 
 app.use(express.static(path.join(__dirname, '/static')));
 
